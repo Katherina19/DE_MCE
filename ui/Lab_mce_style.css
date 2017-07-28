@@ -1,0 +1,161 @@
+/*
+
+    ICONS
+
+*/
+
+.icon-edit {
+    background: transparent url("edit-img.png") no-repeat scroll center center;
+}
+
+.icon-debug {
+    background: transparent url("rsz_debug.png") no-repeat scroll center center;
+}
+
+.icon-run {
+    background: transparent url("rsz_run-code.png") no-repeat scroll center center;
+}
+
+.icon-step {
+    background: transparent url("rsz_step-code.png") no-repeat scroll center center;
+}
+
+.icon-stop {
+    background: transparent url("rsz_stop-code.png") no-repeat scroll center center;
+}
+
+/*
+
+    STYLES
+
+*/
+
+.datagrid-header {
+    border-width: 0px;
+}
+
+.textbox-text, .combobox-item,
+.datagrid-cell, .dialog-button,
+.panel-title{
+    font-family: Courier !important;
+}
+
+#jsLab {
+    font-family: Courier !important;
+}
+
+#jsLab a:link,
+#jsLab a:visited,
+#jsLab a:active,
+#jsLab a:hover,
+.panel a:link,
+.panel a:visited,
+.panel a:active,
+.panel a:hover	{
+	text-decoration: none;
+    color:inherit !important;
+}
+
+#jsLab a img {
+    outline: none;
+    border: 0;
+}
+
+.mce-textbox-noborder{
+    border-color:transparent;
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+}
+
+.mce-vars-block {
+    padding: 5px;
+}
+
+.mce-code-editor{
+    resize: none;
+}
+
+.mce-run-buttons-container {
+    height:40px;
+    border-top:1px solid #d3d3d3;
+    font-size: 14px;
+}
+
+.mce-run-buttons-container .mce-code-style {
+    color: #474755;
+    margin: 12px 0 0 10px;
+    position:relative;
+}
+
+.mce-code-style .mce-run-buttons {
+    position:absolute;
+    right: 10px;
+    top: -4px;
+}
+
+.mce-run-buttons a{
+    margin-right: 5px;
+}
+
+.mce-console tr,
+.mce-console tr td {
+    border-width: 0px;
+}
+
+.add-var-dialog {
+    padding: 3px;
+}
+
+.add-var-dialog table tr td:first-child{
+    font-family: Courier !important;
+    font-size: 10pt !important;
+    vertical-align: middle !important;
+    /*font-weight:bold;*/
+    width: 40%;
+}
+
+.easyui-tree ul,
+.easyui-tree li,
+.mce-console-container{
+    font-family: Courier;
+    font-weight: normal;
+}
+
+.datagrid td {
+    vertical-align: middle !important;
+}
+
+.messager-body {
+    font-size: 10pt !important;
+}
+
+#mceConsole .datagrid-row-over,
+#mceConsole .datagrid-header td.datagrid-header-over {
+  background: transparent !important;
+}
+
+#mceConsole .datagrid-row-selected {
+  background: transparent !important;
+}
+
+.mce-array-edit:hover,
+.mce-array-edit:link,
+.mce-array-edit:visited,
+.mce-array-edit:active{
+    text-decoration: none;
+    color: #a5a5a5;
+    cursor: pointer;
+}
+
+#mceCodeEditor {
+    display: none;
+}
+
+.mce-activeline {
+    background: #e8f2ff !important;
+}
+
+.mce-errorline {
+    background: #ffe5e5 !important;
+}

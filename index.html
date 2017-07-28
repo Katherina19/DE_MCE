@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MCE</title>
+    <!-- Styles -->
+    <link type="text/css"  rel="stylesheet" href="ui/easyui.css" />
+    <link type="text/css"  rel="stylesheet" href="ui/Lab_mce_style.css" />
+    <link type="text/css"  rel="stylesheet" href="Lab_mce_codemirror.css" />
+    <!-- JS -->
+    <script type="text/javascript" src="jquery-1.10.2.js"></script>
+    <!--<script type="text/javascript" src="ui/jquery.easyui.min_upd.js"></script>-->
+    <script type="text/javascript" src="ui/jquery.easyui_upd.js"></script>
+    <script type="text/javascript" src="Lab_mce_syntaxer.js"></script>
+    <script type="text/javascript" src="Lab_mce_tree_builder.js"></script>
+    <script type="text/javascript" src="Lab_mce_interpreter.js"></script>
+    <script type="text/javascript" src="Lab_mce_i18n.js"></script>
+    <script type="text/javascript" src="Lab_mce_vlab.js"></script>
+    <script type="text/javascript" src="Lab_mce_ui.js"></script>
+    <!-- CodeMirror -->
+    <script type="text/javascript" src="Lab_mce_codemirror.js"></script>
+    <script type="text/javascript" src="Lab_mce_mode_basic.js"></script> <!-- NEED UPDATE TO BASIC -->
+    <script type="text/javascript" src="Lab_mce_mode_clike.js"></script>
+    <script type="text/javascript" src="Lab_mce_mode_pascal.js"></script>
+</head>
+<body>
+<div id="jsLab">
+</div>
+
+<script type="text/javascript">
+    window.onload = function() {
+        Vlab.init();
+    };
+</script>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<input type="button" onclick="Vlab.getResults()" value="getResults"/>
+<input type="hidden" id="previousSolution" name="previousSolution" value=""/>
+</body>
+</html>
